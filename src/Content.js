@@ -34,7 +34,7 @@ const Content = () => {
 				value={content}
 				placeholder="Digite aqui..."
 				onChange={({ target }) => setContent(target.value)}
-				spellcheck={false}
+				spellCheck={false}
 			/>
 			<Date>{global.datetime}</Date>
 		</Fragment>

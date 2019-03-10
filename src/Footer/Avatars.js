@@ -29,8 +29,8 @@ const Avatar = styled.img`
 
 const Avatars = () => (
 	<StyledAvatars>
-		{global.avatars.map(avatar => (
-			<Link>
+		{global.avatars.map((avatar, index) => (
+			<Link key={index}>
 				<Avatar src={avatar} />
 			</Link>
 		))}
