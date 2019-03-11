@@ -8,6 +8,9 @@ const downloadTweet = async () => {
   const dataUrl = await domtoimage.toPng(tweet);
 
   var link = document.createElement("a");
+  document.body.appendChild(link);
+
+  link.setAttribute('type', 'hidden');
   link.download = "tweet.png";
   link.href = dataUrl;
   link.click();
