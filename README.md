@@ -4,7 +4,8 @@
 
 # Gerador de Tweets do Bolsonaro
 
-[[![license](https://img.shields.io/github/license/felipefialho/despolitizador.svg)](./license.md)](https://img.shields.io/github/license/gabrielferreiraa/gerador-de-tweet-do-bolsonaro.svg)
+![GitHub stars](https://img.shields.io/github/stars/gabrielferreiraa/gerador-de-tweet-do-bolsonaro.svg?style=for-the-badge)
+![GitHub tag (latest by date)](https://img.shields.io/github/tag-date/gabrielferreiraa/gerador-de-tweet-do-bolsonaro.svg?style=for-the-badge)
 
 ## Getting Started
 
