@@ -30,16 +30,29 @@ const Retweets = styled.li`${RetAndLikeStyle};`;
 
 const Likes = styled.li`${RetAndLikeStyle};`;
 
+const Warning = styled.div`
+	text-align: center;
+	font-size: 0.7em;
+	position: absolute;
+	width: calc(100% - 70px);
+	color: #657786;
+`;
+
 const Footer = () => (
-	<Wrapper>
-		<Retweets>
-			<span>{global.retweets}</span> Retweets
-		</Retweets>
-		<Likes>
-			<span>{global.likes}</span> Curtidas
-		</Likes>
-		<Avatars />
-	</Wrapper>
+	<div>
+		<Wrapper>
+			<Retweets>
+				<span>{global.retweets}</span> Retweets
+			</Retweets>
+			<Likes>
+				<span>{global.likes}</span> Curtidas
+			</Likes>
+			<Avatars />
+		</Wrapper>
+		<Warning>
+			Esse tweet foi gerado com o <i>Gerador de Tweet do Bolsonaro</i>, e não é necessariamente verdadeiro
+		</Warning>
+	</div>
 );
 
 export default Footer;
