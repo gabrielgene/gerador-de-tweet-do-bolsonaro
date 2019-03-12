@@ -12,25 +12,25 @@ const Avatar = styled.img`
 	height: 48px;
 	object-fit: cover;
 	border-radius: 50%;
-	margin-right: 10px
+	margin-right: 10px;
 `;
 
 const FullName = styled.h1`
 	color: #14171a;
 	margin: 0;
-	font-size: 1.15em
+	font-size: 1.15em;
 `;
 
 const Verified = styled.img`
 	position: absolute;
 	top: 42px;
 	left: 250px;
-	width: 15px
+	width: 15px;
 `;
 
 const AliasName = styled.span`
 	color: #657786;
-	font-size: 0.96em
+	font-size: 0.96em;
 `;
 
 const Person = () => (
