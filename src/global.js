@@ -2,6 +2,7 @@ export default {
 	user: {
 		avatar: 'images/bolso.jpg',
 		fullName: 'Jair M. Bolsonaro',
+		verified: 'images/verified.png',
 		twitter: '@jairbolsonaro'
 	},
 	datetime: '04:26 - 6 de mar de 2019',
