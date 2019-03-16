@@ -1,17 +1,5 @@
-const date = new Date();
-const formattedDate = date
-  .toLocaleDateString('en-GB', {
-    day: 'numeric',
-    month: 'short',
-    year: 'numeric',
-  })
-  .replace(/ /g, ' de ');
+import { formattedDate, formattedHour } from './tools';
 
-const hour = date.getHours();
-const minute = date.getMinutes();
-const ampm = hour >= 12 ? 'PM' : 'AM';
-
-const formattedHour = `${hour}:${minute} ${ampm}`;
 export default {
   user: {
     avatar: 'images/bolso.jpg',
