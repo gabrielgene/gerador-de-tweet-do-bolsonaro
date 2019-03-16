@@ -4,6 +4,7 @@ export default {
   user: {
     avatar: 'images/bolso.jpg',
     fullName: 'Jair M. Bolsonaro',
+    verified: 'images/verified.png',
     twitter: '@jairbolsonaro',
   },
   datetime: `${formattedHour} - ${formattedDate}`,
